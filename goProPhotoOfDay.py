@@ -2,7 +2,7 @@ import requests
 import os
 import sys
 import time
-qtd = int(sys.argv[1])
+qtd = int(sys.argv[1]) #Command Line Argument
 url = "https://api.gopro.com/v2/channels/feed/playlists/photo-of-the-day.json?platform=web&page=1&per_page=";
 url = url + str(qtd)
 obj = requests.get(url);
