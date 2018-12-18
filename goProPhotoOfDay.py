@@ -28,5 +28,6 @@ while True:
     print ("wallpaper changed to %d.jpg"%number)
     number += 1
     time.sleep(4) #Change Time Accordingly
+	#Hello
 
 print('Finished script...') #Actually Never Finishes :)
